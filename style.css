@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#root{
+    width:100vw;
+    height: 100vh;
+    background-color:lightslategray;
+}
+.container{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.header{
+    background-color:rgb(90, 106, 121);
+    width:100%;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.todos{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem 0rem;
+    font-family: 'Poppins';
+    display: flex;flex-direction: column;align-items: center;
+
+}
+input{
+    margin-left: 1rem;
+    width: 30vw;
+    padding:1rem;
+    border: 0px;
+    border-radius: 2% 2% 2% 2%/10% 10% 10% 10%;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+}
+.fa-plus, .edit{
+   position: relative;
+   top: 14%;
+   right: 10%;
+   font-size: 2rem;
+   color:rgb(90, 106, 121);
+}
+.edit{ 
+   top: 5%;
+   font-size: 1.5rem;
+}
+button{
+    width:10rem;
+    padding:0.3rem 0rem;
+    border: 0px;
+    color: #fff;
+    background-color:rgb(90, 106, 121);
+    font-size: 1.2rem;font-family: 'Poppins';
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin-top: 2rem;
+}
+button:hover, i:hover{
+    cursor: pointer;
+}
+section{
+    width: 50rem;
+    height: 10vh;
+    background-color:rgb(90, 106, 121);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    color:#fff;
+    display: flex;align-items: center;justify-content: space-between;
+    padding:0rem 3rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.Icon span{
+    margin-left: 2rem;
+}
